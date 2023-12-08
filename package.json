@@ -1,0 +1,45 @@
+{
+  "name": "guitar-lessons-generator",
+  "version": "1.0.0",
+  "description": "Small node.js app to output midi files given a list of notes and tempos",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+      "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Blackmagicbox/guitar-lessons-generator.git"
+  },
+  "keywords": [
+    "Music",
+    "Mid",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Rafael Santos",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Blackmagicbox/guitar-lessons-generator/issues"
+  },
+  "homepage": "https://github.com/Blackmagicbox/guitar-lessons-generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
